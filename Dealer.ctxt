@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Dealer
+comment0.text=\r\n\ The\ Dealer\ class\ represents\ a\ dealer\ in\ a\ Blackjack\ game\r\n\r\n\ @author\ Charles\ Almond\r\n\ @version\ 2020.06.29.01\r\n
+comment1.params=stash\ brain
+comment1.target=Dealer(int,\ Brain)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Dealer,\ setting\ the\ name\ to\ "Dealer"\ and\ the\ stash\ of\ money\ to\ bet,\ \r\n\ and\ initializes\ a\ new\ deck\ of\ cards\r\n
+comment2.params=
+comment2.target=Card\ deal()
+comment2.text=\r\n\ Takes\ a\ card\ from\ the\ deck\ and\ returns\ it\r\n\ Used\ in\ conjunction\ with\ the\ Player's\ receiveCard\ method\r\n\ Example\:\ player.receiveCard(dealer.deal());\r\n\ @return\ A\ card\ from\ the\ deck\r\n
+comment3.params=
+comment3.target=void\ resetDeck()
+comment3.text=\r\n\ Get\ a\ full,\ shuffled\ deck\ back\ to\ the\ dealer\r\n
+comment4.params=pHand
+comment4.target=boolean\ dealerTurn(java.util.ArrayList)
+numComments=5
